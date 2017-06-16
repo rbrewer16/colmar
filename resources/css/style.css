@@ -11,10 +11,16 @@ header {
   padding: 0 24px;
 }
 body {
-  font-family: "Arial", sans-serif;
+  font-family: "Playfair Display", sans-serif;
   background-color: #B27B00;
 }
+nav a {
+  font-family: "Source Sans Pro", sans-serif;
+}
 
+h1, h2{
+  font-family: "Source Sans Pro", sans-serif;
+}
 
 a {
   color: white;
@@ -37,7 +43,7 @@ a:hover {
 
 .name2 {
   text-transform: uppercase;
-  color: grey;
+  color: #1966FF;
 }
 
 #desktop {
@@ -75,7 +81,7 @@ a:hover {
 
 button {
   width: 20rem;
-  background-color: grey;
+  background-color: #1966FF;
   color: white;
   border: 0;
   font-size: 1rem;
@@ -84,7 +90,7 @@ button {
 
 button:hover {
   background-color: #003CB2;
-  color: black;
+  color: white;
 }
 
 .learn-img {
@@ -226,6 +232,7 @@ button:hover {
   width: 30%;
   margin: 16px;
   padding-bottom: 24px;
+  border: 1px solid #FFECC1;
 }
 
 .course_txt {
@@ -234,13 +241,14 @@ button:hover {
 }
 
 .course_txt h2 {
-  color: black;
+  color: white;
   font-weight: bold;
 }
 
 .course_img{
   width: 100%;
   height: auto;
+
 }
 
 .CI {
@@ -314,6 +322,7 @@ video {
   max-width: 35%;
   height: auto;
   margin: 16px;
+  border: 1px solid #FFECC1;
 }
 
 .TI {
@@ -330,7 +339,7 @@ video {
 }
 
 .thesis_txt h3 {
-  color: black;
+  color: white;
   font-weight: bold;
 }
 
